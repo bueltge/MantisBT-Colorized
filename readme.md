@@ -22,12 +22,12 @@ If you will also use the same colors for your status graph, then copy the follow
 
 ```php
 	# --- Colors ---
-	$g_status_colors['new']          = '#EEB3AA';
-	$g_status_colors['feedback']     = '#BADADE';
-	$g_status_colors['acknowledged'] = '#F5E5B8';
-	$g_status_colors['confirmed']    = '#C5DBA9';
-	$g_status_colors['assigned']     = '#AFBED5';
-	$g_status_colors['resolved']     = '#C1B9AE';
+	$g_status_colors['new']          = '#eeb3aa';
+	$g_status_colors['feedback']     = '#badade';
+	$g_status_colors['acknowledged'] = '#f5e5b8';
+	$g_status_colors['confirmed']    = '#c5dba9';
+	$g_status_colors['assigned']     = '#afbed5';
+	$g_status_colors['resolved']     = '#c1b9ae';
 	$g_status_colors['closed']       = '#e8e8e8';
 ```
 
