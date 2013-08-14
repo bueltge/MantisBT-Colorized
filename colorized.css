@@ -1,0 +1,195 @@
+/**
+ * Title:   Colorized, a MantisBT Stylesheet
+ * Author:  Frank Bültge
+ * Contact: frank@bueltge.de
+ * 
+ * Description: Alternative colorized style for the Manits Bugtracker
+ * 
+ * @since   02/2009
+ * @version 08/14/2013
+ * @author  fb
+ */
+
+/**
+ * @section  Import of Stylesheets (also google fonts)
+ */
+@import url( 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' );
+@import url( 'buttons.css' );
+
+body { font: 400 17px/1.6 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; overflow: hidden; }
+
+a, a:link { font-size: 12px; text-decoration: none; color: #AB3521; }
+a:visited { font-size: 12px; text-decoration: none; color: #AB3521; }
+a:hover, a:focus { text-decoration: underline; color: #AB3521; }
+a:active { text-decoration: none; }
+a.subtle { color: blue; text-decoration: none; }
+a.resolved { text-decoration: none; }
+a[href*='/main_page.php'] { display: none; }
+
+#bugnotes:hover, #monitors:hover, #history:hover { text-decoration: none !important; }
+
+form { display: inline; }
+
+span { font-size: 10pt; }
+span.print { font-size: 10pt; }
+span.required { font-size: 10pt; color: #bb0000; }
+span.small { font-size: 10pt; font-weight: normal; }
+span.pagetitle { font-size: 12pt; font-weight: bold; text-align: center }
+span.bracket-link{ white-space: nowrap; }
+
+span.dependency_dated { color: brown; }
+span.dependency_met { color: green; }
+span.dependency_unmet { color: red; }
+span.dependency_upgrade { color: orange; }
+
+table { color: #646464; border-radius: 0.2em; }
+table.hide { width: 100%; border: solid 0px #f4f5ef; }
+table.width100{ width: 100%; border: solid 1px #E9E9E9; }
+table.width90{ width: 90%;  border: solid 1px #E9E9E9; }
+table.width75{ width: 75%;  border: solid 1px #E9E9E9; }
+table.width60{ width: 60%;  border: solid 1px #E9E9E9; }
+table.width50{ width: 50%;  border: solid 1px #E9E9E9; }
+
+td { color: #646464; font-size: 10pt; padding: 4px; text-align: left; }
+td.center { text-align: center; }
+td.left { text-align: left; }
+td.right { text-align: right; }
+td.category { background-color: #cccccc; color: #42484b; font-weight: bold; vertical-align: top; }
+td.overdue { background-color: #CE4027; color: #f4f5ef; }
+
+td.col-1{ background-color: #d8d8d8; color: #42484b; }
+td.col-2{ background-color: #e8e8e8; color: #42484b; }
+td.form-title {font-weight: bold; text-align: left; }
+td.nopad { padding: 0px; }
+td.small-caption { font-size: 10pt; }
+td.print { font-size: 10pt; text-align: left; padding: 2px; }
+td.print-category { font-size: 10pt; color: #42484b; font-weight: bold; text-align: right; padding: 2px; }
+td.print-overdue { font-size: 10pt; color: #42484b; font-weight: bold; padding: 2px; }
+td.print-bottom { border-bottom: 1px solid #42484b; }
+td.print-spacer { background-color: #f4f5ef; color: #42484b; font-size: 1pt; line-height: 0.1; padding: 0px; }
+
+tr {}
+tr.spacer { background-color: #f4f5ef; color: #42484b; height: 5px; }
+tr.row-1 { background-color: #eaeaea; color: #E9E9E9; }
+tr.row-2 { background-color: #F5F5F5; color: #42484b; }
+tr.row-category { background-color: #E9E9E9; color: #646464; font-weight: bold; }
+tr.row-category td {  text-align:center; }
+tr.row-category2{ background-color: #F5F5F5; color: #646464; }
+tr.row-category-history { background-color: #cccccc; color: #42484b; font-weight: bold; }
+tr.row-category-history td {  text-align: left; }
+tr.vcenter { vertical-align: middle; }
+tr.print { vertical-align: top; }
+tr.print-category { color: #42484b; font-weight: bold; }
+
+#buglist tr, #buglist td { text-align: center; }
+#buglist td.left { text-align: left; }
+#buglist td.right { text-align: right; }
+#buglist tr:hover { background-color: #f3f3f3; }
+
+tr.bugnote { vertical-align: top; }
+td.bugnote-public { background-color: #cccccc; color: #42484b; font-weight: bold; width: 25%; line-height: 1.4; }
+td.bugnote-private { background-color: #e8e8e8; color: #42484b; font-weight: bold; width: 25%; line-height: 1.4; }
+td.bugnote-note-public { background-color: #e8e8e8; color: #42484b; width: 75%; }
+td.bugnote-note-private { background-color: #e8e8e8; color: #42484b; width: 75%; }
+
+td.login-info-left { width: 33%; padding: 0px; text-align: left; }
+td.login-info-middle { width: 33%; padding: 0px; text-align: center; }
+td.login-info-right { width: 33%; padding: 0px; text-align: right; white-space: nowrap; }
+
+td.news-heading-public { background-color: #cccccc; color: #42484b; text-align: left; border-bottom: 1px solid #42484b; }
+td.news-heading-private { background-color: #d8d8d8; color: #42484b; text-align: left; border-bottom: 1px solid #42484b; }
+td.news-body { background-color: #f4f5ef; color: #42484b; padding: 16px; }
+
+img{}
+img.icon { width: 11px; height: 11px; }
+img.delete-icon { position: relative; top: 5px; border: 0; }
+
+div { padding: 3px; }
+div.menu { background-color: #e8e8e8; color: #42484b; text-align: center; width: 100%; padding: 1px; }
+
+div.center { width: 50%; margin-right: auto; margin-left: auto; }
+
+div.border { background-color: #f4f5ef; border: solid 1px #000000; text-align: center; position: relative; }
+
+div.quick-summary-left { width: 49%; padding: 2px; text-align: left;  float: left; }
+div.quick-summary-right { width: 49%; padding: 2px; text-align: right; float: right; }
+
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+.small {}
+.small-normal { font-weight: normal; }
+.small-subprojects{ width: 200px; }
+.bold { font-weight: bold; }
+.bold-small { font-weight: bold; }
+.italic { font-style: italic; }
+.italic-small { font-style: italic; }
+.underline { text-decoration: underline; }
+.underline-small { text-decoration: underline; }
+.strike { text-decoration: line-through; }
+.strike-small { text-decoration: line-through; }
+.hidden { display: none; }
+
+.nowrap { white-space: nowrap; }
+
+.positive { color: green; }
+
+.negative { color: red; }
+
+.issue-status { border-bottom: 1px dotted black; }
+
+.avatar { float: right; border: 0; }
+
+.progress400 { position: relative; width: 400px; border: 1px solid #d7d7d7; margin-top: 1em; margin-bottom: 1em; padding: 1px; }
+.progress400 .bar { display: block; position: relative; background: #6bba70; text-align: center; font-weight: normal; color: #333; height: 2em; line-height: 2em; }
+
+
+/*
+ * @section Open/Close elements
+ * 
+ * Simple transition for "open/close" elements
+ * Copy, Idea from Tim Pietrusky
+ * @see  https://github.com/TimPietrusky/mantisbt-is-a-rockstar
+ */
+#filter_open,
+#filter_closed,
+#relationships_open,
+#relationships_closed,
+#upload_form_open,
+#upload_form_closed,
+#monitoring_open,
+#monitoring_closed,
+#bugnotes_open,
+#bugnotes_closed,
+#bugnote_add_open,
+#bugnote_add_closed,
+#history_open,
+#history_closed { opacity: 1; height:auto; margin-top:0;
+ -webkit-transform-origin:0; -webkit-transform-origin:0; 	-moz-transform-origin:0; 	-ms-transform-origin:0; 	 -o-transform-origin:0; 		transform-origin:0;
+ -webkit-transition: all .4s ease-in; 	-moz-transition: all .4s ease-in; 	-ms-transition: all .4s ease-in; 	-o-transition: all .4s ease-in; 		transition: all .4s ease-in; }
+
+#filter_open.hidden,
+#filter_closed.hidden,
+#relationships_open.hidden,
+#relationships_closed.hidden,
+#upload_form_open.hidden,
+#upload_form_closed.hidden,
+#monitoring_open.hidden,
+#monitoring_closed.hidden,
+#bugnotes_open.hidden,
+#bugnotes_closed.hidden,
+#bugnote_add_open.hidden,
+#bugnote_add_closed.hidden,
+#history_open.hidden,
+#history_closed.hidden { opacity: .2; height: 0; overflow:hidden; display:block;
+ -webkit-transform: scale(.975) translate(0, 6px); 	-moz-transform: scale(.975) translate(0, 6px); 	-ms-transform: scale(.975) translate(0, 6px); 	-o-transform: scale(.975) translate(0, 6px); 		transform: scale(.975) translate(0, 6px); }
+
+#filter_closed.hidden,
+#relationships_closed.hidden,
+#upload_form_closed.hidden,
+#monitoring_closed.hidden,
+#bugnotes_closed.hidden,
+#bugnote_add_closed.hidden,
+#history_closed.hidden { -webkit-transform: scale(1); 	-moz-transform: scale(1); 	-ms-transform: scale(1); 	-o-transform: scale(1); 		transform: scale(1); }
+
+code { display:block; font: 13px/19px Consolas, Menlo, "Liberation Mono", Courier, monospace; text-shadow: none; color: #444; background-color: #F8F8F8; border: 1px solid #ccc; padding: .4em; }
