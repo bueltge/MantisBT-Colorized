@@ -17,7 +17,7 @@
 @import url( 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' );
 @import url( 'buttons.css' );
 
-body { font: 400 17px/1.6 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; overflow: hidden; }
+body { font: 400 17px/1.6 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 a, a:link { font-size: 12px; text-decoration: none; color: #AB3521; }
 a:visited { font-size: 12px; text-decoration: none; color: #AB3521; }
