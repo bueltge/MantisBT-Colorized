@@ -15,7 +15,10 @@ This style uses the magic of CSS to transform in a new style, simple and useful,
  2. Unpack the package
  3. Create a folder: `<mantis-root>/colorized`
  4. Copy all files from the unpacked folder `colorized/*` to `<mantis_root>/colorized/`
- 5. Add the following line to your `config_inc.php` to change the css file included into MantisBT: `$g_css_include_file = "/colorized/colorized.css";`
+ 5. Add the following line to your `config_inc.php` to change the css file included into MantisBT:
+```php
+	`$g_css_include_file = "/colorized/colorized.css";`
+```
 
 ### Status Colors
 If you will also use the same colors for your status graph, then copy the follow snippet in your `config_inc.php`
