@@ -22,7 +22,7 @@ td.menu {
 }
 
 td.menu a {
-	margin: 0 -10px 0 0 !important;
+	margin: 0 0 0 -10px !important;
 }
 
 select {
