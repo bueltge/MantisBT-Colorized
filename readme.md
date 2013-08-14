@@ -18,7 +18,7 @@ This style uses the magic of CSS to transform in a new style, simple and useful,
  5. Add the following line to your `config_inc.php` to change the css file included into MantisBT:
 
 ```php
-	`$g_css_include_file = "/colorized/colorized.css";`
+	$g_css_include_file = "/colorized/colorized.css";
 ```
 
 ### Status Colors
