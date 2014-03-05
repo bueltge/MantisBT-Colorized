@@ -21,6 +21,10 @@ td.menu {
 	border-radius: 0.2em;
 }
 
+td.menu a:first-of-type {
+	margin: 0 !important;
+}
+
 td.menu a {
 	margin: 0 0 0 -10px !important;
 }
