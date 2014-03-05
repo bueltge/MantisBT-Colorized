@@ -21,6 +21,10 @@ td.menu {
 	border-radius: 0.2em;
 }
 
+td.menu a:first-of-type {
+	margin: 0 !important;
+}
+
 td.menu a {
 	margin: 0 0 0 -10px !important;
 }
@@ -49,17 +53,18 @@ select {
 	*display: inline;
 }
 
-input, td.menu a {
+input, textarea, td.menu a {
 	position: relative;
 	overflow: visible;
 	display: inline-block;
 	padding: 0.5em 1em;
-	border: 1px solid #d4d4d4;
+	border: 1px solid #bababa;
 	margin: 0;
 	text-decoration: none;
 	text-align: center;
 	text-shadow: 1px 1px 0 #fff;
 	font:11px/normal sans-serif;
+	font-weight: 600;
 	color: #333;
 	white-space: nowrap;
 	cursor: pointer;
@@ -109,6 +114,30 @@ td.menu a:active {
 	background-image: -ms-linear-gradient(#3072b3, #599bdc);
 	background-image: -o-linear-gradient(#3072b3, #599bdc);
 	background-image: linear-gradient(#3072b3, #599bdc);
+}
+
+input[type="text"], 
+input[type="password"], 
+textarea {
+  background: #ffffff;
+  font-weight: 400;
+  color: #646464;
+  cursor: auto;
+  text-shadow: none;
+  text-align: left;
+}
+
+input[type="text"]:hover, 
+input[type="text"]:focus, 
+input[type="text"]:active, 
+input[type="password"]:hover, 
+input[type="password"]:focus, 
+input[type="password"]:active, 
+textarea:hover,
+textarea:focus,
+textarea:active {
+  border-color: #3072b3;
+  color: #3072b3;
 }
 
 /* overrides extra padding on button elements in Firefox */
