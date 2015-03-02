@@ -37,7 +37,6 @@ select {
 	text-shadow: 1px 1px 0 #fff;
 	font:11px/normal sans-serif;
 	color: #333;
-	white-space: nowrap;
 	outline: none;
 	background-color: #ececec;
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
