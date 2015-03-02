@@ -2,7 +2,7 @@
 
 Just another theme for [Mantis BugTracker](http://www.mantisbt.org/), the free web-based bugtracking system.
 
-This style uses the magic of CSS to transform in a new style, simple and useful, without images.
+This style uses the magic of CSS to transform in a new style - simple, fast and useful, without images, pure css.
 
 ### Screenshots
  * Buglist View
