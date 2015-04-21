@@ -14,18 +14,25 @@
 /**
  * @section Navigation, menu
  */
-td.menu {
+.main-menu ul li {
+	padding: 0 .75em;
+}
+.main-menu ul li a {
 	background: #f3f3f3;
 	width: 100%;
-	padding: .7em;
+	padding: .75em;
 	border-radius: 0.2em;
 }
 
-td.menu a:first-of-type {
+.main-menu ul li a:first-of-type {
 	margin: 0 !important;
 }
 
-td.menu a {
+.main-menu ul li > a#logout-link {
+	border-right: 1px solid #bababa;
+}
+
+.main-menu ul li a {
 	margin: 0 0 0 -10px !important;
 }
 
@@ -52,7 +59,7 @@ select {
 	*display: inline;
 }
 
-input, textarea, td.menu a {
+input, textarea, .main-menu ul li a {
 	position: relative;
 	overflow: visible;
 	display: inline-block;
@@ -85,9 +92,9 @@ input, textarea, td.menu a {
 input:hover,
 input:focus,
 input:active,
-td.menu a:hover,
-td.menu a:focus,
-td.menu a:active,
+.main-menu ul li a:hover,
+.main-menu ul li a:focus,
+.main-menu ul li a:active,
 select:hover {
 	border-color: #3072b3;
 	border-bottom-color: #2a65a0;
@@ -102,7 +109,7 @@ select:hover {
 }
 
 input:active,
-td.menu a:active {
+.main-menu ul li a:active {
 	opacity: 1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 	border-color: #2a65a0;
