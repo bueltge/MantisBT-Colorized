@@ -1,21 +1,29 @@
 /**
- * Title:   Navigation, Menu and Buttons forColorized, a MantisBT Stylesheet
+ * Title:   Navigation, Menu and Buttons for Colorized, a MantisBT Stylesheet
  * Author:  Frank Bültge
  * Contact: frank@bueltge.de
  * URL:     https://github.com/bueltge/MantisBT-Colorized
  * 
  * Description: Navigation, Menu and Buttons for Colorized theme
  * 
- * @since   2009/02
- * @version 2015/03/02
- * @author  fb
+ * @since   2009-04
+ * @version 2015-04-21-Dev
+ * @author  Frank Bültge <frank@bueltge.de>
  */
+
+/**
+ * @section Information bar, inlcude feed and project selector
+ */
+.info-bar {
+	margin: 0.1em 0 1em 0;
+}
 
 /**
  * @section Navigation, menu
  */
 .main-menu ul li {
-	padding: 0 .75em;
+	padding: 0 .75em .1em .8em;
+	line-height: 1.9;
 }
 .main-menu ul li a {
 	background: #f3f3f3;
@@ -24,16 +32,16 @@
 	border-radius: 0.2em;
 }
 
-.main-menu ul li a:first-of-type {
-	margin: 0 !important;
-}
-
 .main-menu ul li > a#logout-link {
 	border-right: 1px solid #bababa;
 }
 
 .main-menu ul li a {
 	margin: 0 0 0 -10px !important;
+}
+
+.main-menu div#bug-jump {
+	padding: 7px 5px 0 0;
 }
 
 select {
