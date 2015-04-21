@@ -129,6 +129,9 @@ div.border { background-color: #f4f5ef; border: solid 1px #000000; text-align: c
 div.quick-summary-left { width: 49%; padding: 2px; text-align: left;  float: left; }
 div.quick-summary-right { width: 49%; padding: 2px; text-align: right; float: right; }
 
+div.important-msg { color: #AB3521; border-color: #AB3521; }
+div.form-container fieldset.has-required:after { color: #AB3521 !important; }
+
 .center { text-align: center; }
 .left { text-align: left; }
 .right { text-align: right; }

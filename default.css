@@ -123,13 +123,11 @@ td.right {
 	text-align: right;
 }
 td.category, th.category {
-	background-color: #c8c8e8;
 	color: #000000;
 	font-weight: bold;
 	vertical-align: top;
 }
 td.category2, th.category2 {
-	background-color: #c8c8e8;
 	color: #000000;
 	vertical-align: top;
 }
@@ -219,7 +217,6 @@ tr.row-2 {
 	color: #000000;
 }
 tr.row-category {
-	background-color: #c8c8e8;
 	color: #000000;
 	font-weight: bold;
 }
@@ -227,11 +224,9 @@ tr.row-category td {
 	text-align: center;
 }
 tr.row-category2 {
-	background-color: #c8c8e8;
 	color: #000000;
 }
 tr.row-category-history {
-	background-color: #c8c8e8;
 	color: #000000;
 	font-weight: bold;
 }
@@ -268,7 +263,6 @@ td.my-buglist-description {
 	text-align: left;
 }
 tr.bugnote .bugnote-meta {
-	background-color: #c8c8e8;
 	color: #000000;
 	font-weight: bold;
 	line-height: 1.4;
@@ -585,7 +579,6 @@ td.menu a {
 	white-space: nowrap;
 }
 td.news-heading-public {
-	background-color: #c8c8e8;
 	border-bottom: 1px solid #000000;
 	color: #000000;
 	text-align: left;
@@ -614,7 +607,6 @@ div#news-items div:first-child {
 	margin-top: 3em;
 }
 h3.news-heading-public {
-	background-color: #c8c8e8;
 	border-bottom: 1px solid #000000;
 	color: #000000;
 	margin: 0em;
@@ -1200,7 +1192,6 @@ div.form-container .spacer {
 	margin-top: .5em;
 }
 .label-style {
-	background-color: #c8c8e8;
 	border-right: 1px solid #fff;
 	height: 100%;
 	left: 0em;
