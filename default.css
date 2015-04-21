@@ -1,12 +1,10 @@
 body {
 	background-color: #ffffff;
 	color: #000000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	margin: 6px 4px;
 }
 
-p				{ font-family: Verdana, Arial, Helvetica, sans-serif; }
 p.compact		{ margin: 0;}
 
 pre				{ margin-top: 0px; margin-bottom: 0px; }
@@ -32,7 +30,7 @@ select				{}
 select.width100		{ width: 100%; }
 select.width20		{ width: 20%; }
 
-span				{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; }
+span				{ font-size: 10pt; }
 span.print			{ font-size: 8pt; }
 span.required 		{ font-size: 8pt; color: #bb0000; }
 span.small 			{ font-size: 8pt; font-weight: normal; }
@@ -47,7 +45,7 @@ table.width75		{ width: 74%;  margin-left: 13%; margin-right: 13%; border: solid
 table.width60		{ width: 60%;  margin-left: 20%; margin-right: 20%; border: solid 1px #000000; }
 table.width50		{ width: 50%;  margin-left: 25%; margin-right: 25%; border: solid 1px #000000; }
 
-td,th 				{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; padding: 4px; text-align: left; }
+td,th 				{ font-size: 10pt; padding: 4px; text-align: left; }
 td.center			{ text-align: center; }
 td.left				{ text-align: left; }
 td.right			{ text-align: right; }
@@ -338,7 +336,6 @@ div.quick-summary-right	{ width: 49%; padding: 2px; text-align: right; float: ri
 .progress400 .bar			{ display: block; position: relative; background: #6bba70; text-align: center; font-weight: normal; color: #333; height: 2em; line-height: 2em; }
 
 #footer {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 8pt;
 	margin-top: 2em;
 	clear: both;
