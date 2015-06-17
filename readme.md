@@ -26,7 +26,7 @@ This style uses the magic of CSS to transform in a new style - simple, fast and 
 
 #### Using the Mantis Theme Manager
 
-Using the [Mantis theme manager](https://github.com/TimPietrusky/MantisThemeManager), the inatll options are a little different:
+Using the [Mantis theme manager](https://github.com/TimPietrusky/MantisThemeManager), the install options are a little different:
 
  1. Download
  2. Unpack the package
