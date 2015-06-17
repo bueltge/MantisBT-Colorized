@@ -11,6 +11,9 @@ This style uses the magic of CSS to transform in a new style - simple, fast and 
  * [Screenshot of the Issue](https://raw.github.com/bueltge/MantisBT-Colorized/master/assets/screenshot-2.png "Issue")
 
 ### Installation
+
+#### Normal
+
  1. Download
  2. Unpack the package
  3. Create a folder: `<mantis-root>/colorized`
@@ -20,6 +23,17 @@ This style uses the magic of CSS to transform in a new style - simple, fast and 
 ```php
 	$g_css_include_file = "/colorized/colorized.css";
 ```
+
+#### Using the Mantis Theme Manager
+
+Using the [Mantis theme manager](https://github.com/TimPietrusky/MantisThemeManager), the inatll options are a little different:
+
+ 1. Download
+ 2. Unpack the package
+ 3. Copy all the files into `<amantis-root>/css/themes/colorized`.
+ 4. Rename `colorized.css` into `default.css` or use a symlink. This step allows the Mantis theme manager to load the new theme.
+ 5. Copy `assets/screenshot-1.png` to `colorized.png`.  This step sets up a preview for the Mantis theme manager configuration.
+ 6. Go to the plugins configuration, load the Mantis theme manager configuration, and chose colorized.
 
 ### Status Colors
 If you will also use the same colors for your status graph, then copy the follow snippet in your `config_inc.php`
