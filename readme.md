@@ -30,10 +30,10 @@ Using the [Mantis theme manager](https://github.com/TimPietrusky/MantisThemeMana
 
  1. Download
  2. Unpack the package
- 3. Copy all the files into `<amantis-root>/css/themes/colorized`.
+ 3. Copy all the files into `<mantis-root>/css/themes/colorized`.
  4. Rename `colorized.css` into `default.css` or use a symlink. This step allows the Mantis theme manager to load the new theme.
  5. Copy `assets/screenshot-1.png` to `colorized.png`.  This step sets up a preview for the Mantis theme manager configuration.
- 6. Go to the plugins configuration, load the Mantis theme manager configuration, and chose colorized.
+ 6. Go to the plugins configuration, load the Mantis theme manager configuration, and choose colorized.
 
 ### Status Colors
 If you will also use the same colors for your status graph, then copy the follow snippet in your `config_inc.php`
