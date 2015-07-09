@@ -96,7 +96,10 @@ input, textarea, .main-menu ul li a {
 	zoom: 1;
 	*display: inline;
 }
-
+textarea {
+	white-space: pre;
+	overflow: auto;
+}
 input:hover,
 input:focus,
 input:active,
