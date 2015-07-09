@@ -35,6 +35,9 @@ If you will also use the same colors for your status graph, then copy the follow
 	$g_status_colors['closed']       = '#e8e8e8';
 ```
 
+#### More user-friendly select boxes 
+You can also use the plugin [Chosen for MantisBT](https://github.com/bueltge/Chosen-for-MantisBT). Chosen is a jQuery plugin that makes long, unwieldy select boxes much more user-friendly.
+
 # Other Notes
 
 ### License
