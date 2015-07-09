@@ -82,6 +82,11 @@ input, textarea, td.menu a {
 	*display: inline;
 }
 
+textarea {
+	white-space: pre;
+	overflow: auto;
+}
+
 input:hover,
 input:focus,
 input:active,
