@@ -45,7 +45,7 @@
 }
 
 select {
-	padding: 0.25em;
+	padding: .2em .25em .25em .25em;
 	border: 1px solid #bababa;
 	margin: 0;
 	text-decoration: none;
@@ -73,7 +73,7 @@ input, textarea, .main-menu ul li a {
 	display: inline-block;
 	padding: 0.5em 1em;
 	border: 1px solid #bababa;
-	margin: 0;
+	margin: 0 .2em 0 0;
 	text-decoration: none;
 	text-align: center;
 	text-shadow: 1px 1px 0 #fff;
