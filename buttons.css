@@ -7,7 +7,7 @@
  * Description: Navigation, Menu and Buttons for Colorized theme
  * 
  * @since   2009-04
- * @version 2015-04-21-Dev
+ * @version 2015-09-16-Dev
  * @author  Frank Bültge <frank@bueltge.de>
  */
 
@@ -45,8 +45,8 @@
 }
 
 select {
-	padding: 0.4em;
-	border: 1px solid #d4d4d4;
+	padding: 0.25em;
+	border: 1px solid #bababa;
 	margin: 0;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 #fff;
