@@ -6,9 +6,9 @@ This style uses the magic of CSS to transform in a new style - simple, fast and 
 
 ### Screenshots
  * Buglist View
-![Buglist View](/assets/screenshot-1.png "Buglist")
+![Buglist View](assets/screenshot-1.png "Buglist")
 
- * [Screenshot of the Issue](/assets/screenshot-2.png "Issue")
+ * [Screenshot of the Issue](assets/screenshot-2.png "Issue")
 
 ### Installation
 
