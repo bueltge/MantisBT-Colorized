@@ -8,7 +8,8 @@ This style uses the magic of CSS to transform in a new style - simple, fast and 
  * Buglist View
 ![Buglist View](assets/screenshot-1.png "Buglist")
 
- * [Screenshot of the Issue](assets/screenshot-2.png "Issue")
+ * [Buglist View](assets/screenshot-1.png "Buglist")
+ * [Screenshot of a Issue](assets/screenshot-2.png "Issue")
 
 ### Installation
 
