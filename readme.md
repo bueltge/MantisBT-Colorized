@@ -5,7 +5,6 @@ Just another theme for [Mantis BugTracker](http://www.mantisbt.org/), the free w
 This style uses the magic of CSS to transform in a new style - simple, fast and useful, without images, pure css.
 
 ### Screenshots
- * Buglist View
 ![Buglist View](assets/screenshot-1.png "Buglist")
 
  * [Buglist View](assets/screenshot-1.png "Buglist")
