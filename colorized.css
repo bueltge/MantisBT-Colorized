@@ -7,7 +7,7 @@
  * Description: Alternative colorized style for the Manits Bugtracker
  * 
  * @since   2009/02
- * @version 2014/03/05
+ * @version 2016/03/02
  * @author  fb
  */
 
@@ -196,4 +196,5 @@ div.quick-summary-right { width: 49%; padding: 2px; text-align: right; float: ri
 #bugnote_add_closed.hidden,
 #history_closed.hidden { -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
 
-code { display:block; font: 13px/19px Consolas, Menlo, "Liberation Mono", Courier, monospace; text-shadow: none; color: #444; background-color: #F8F8F8; border: 1px solid #ccc; padding: .4em; }
+code { font: 13px/19px Consolas, Menlo, "Liberation Mono", Courier, monospace; text-shadow: none; color: #444; background-color: #F8F8F8; border: 1px solid #ccc; padding: .4em; }
+pre code { display:block; }
