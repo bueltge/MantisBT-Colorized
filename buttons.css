@@ -7,7 +7,7 @@
  * Description: Navigation, Menu and Buttons for Colorized theme
  * 
  * @since   2009-04
- * @version 2015-09-16-Dev
+ * @version 2016-03-09
  * @author  Frank Bültge <frank@bueltge.de>
  */
 
@@ -97,8 +97,9 @@ input, textarea, .main-menu ul li a {
 	*display: inline;
 }
 textarea {
-	white-space: pre;
+	white-space: pre-wrap;
 	overflow: auto;
+	word-wrap: normal;
 }
 input:hover,
 input:focus,
