@@ -41,7 +41,11 @@ You can also use the plugin [Chosen for MantisBT](https://github.com/bueltge/Cho
 # Other Notes
 
 ### License
-Good news, this script is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But if you enjoy this script, you can thank me and leave a [small donation](http://bueltge.de/wunschliste/) for the time I've spent writing and supporting this script. And I really don't want to know how many hours of my life this plugin has already eaten ;)
+Good news, this script is free for everyone! Since it's released under [the MIT](https://github.com/bueltge/MantisBT-Colorized/blob/MantisVersion1.3.x/LICENSE.txt).
+But if you enjoy this style, you can thank me and leave a [donation](http://bueltge.de/wunschliste/) for the time I've spent writing and supporting this project. And I really don't want to know how many hours of my life this plugin has already eaten ;)
+
+### Changelog
+Read the separate [changelog file.](https://github.com/bueltge/MantisBT-Colorized/blob/master/CHANGELOG.md)
 
 ### Contact & Feedback
 This script is designed and developed by me ([Frank Bültge](http://bueltge.de)), [G+ Page](https://plus.google.com/111291152590065605567/about?rel=author)

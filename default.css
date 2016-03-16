@@ -1,3 +1,16 @@
+/**
+ * Title:   Defaults for Colorized, a MantisBT Stylesheet
+ * Author:  Frank Bültge
+ * Contact: frank@bueltge.de
+ * URL:     https://github.com/bueltge/MantisBT-Colorized
+ * 
+ * Description: Defaults for Colorized theme, Version >= 1.3*
+ * 
+ * @since   2009-04
+ * @version 2016-03-16
+ * @author  Frank Bültge <frank@bueltge.de>
+ */
+ 
 body {
 	background-color: #ffffff;
 	color: #000000;
