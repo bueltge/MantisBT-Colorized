@@ -208,6 +208,8 @@ div.form-container fieldset.has-required:after { color: #AB3521 !important; }
 #bugnotes_closed.hidden,
 #bugnote_add_closed.hidden,
 #history_closed.hidden { -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
+#signup-form > fieldset > span.info-text { display: block; padding: 150px 10px 10px;}
 
 code { font: 13px/19px Consolas, Menlo, "Liberation Mono", Courier, monospace; text-shadow: none; color: #444; background-color: #F8F8F8; border: 1px solid #ccc; padding: .4em; }
 pre code { display:block; }
+
