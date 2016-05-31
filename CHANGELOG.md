@@ -1,3 +1,6 @@
+## 2016-05-31
+* Add support for css table rules from the [Markdown plugin](https://github.com/bueltge/Markdown-for-MantisBT)
+
 ## 2016-03-23
 * Fix button size #11
 
