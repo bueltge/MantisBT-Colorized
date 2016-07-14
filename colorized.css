@@ -73,7 +73,7 @@ td.col-1{ background-color: #d8d8d8; color: #42484b; }
 td.col-2{ background-color: #e8e8e8; color: #42484b; }
 td.form-title {font-weight: bold; text-align: left; }
 td.nopad { padding: 0px; }
-td.small-caption { font-size: 10pt; }
+td.small-caption { font-size: 10pt; padding-left: .8em; }
 td.print { font-size: 10pt; text-align: left; padding: 2px; }
 td.print-category { font-size: 10pt; color: #42484b; font-weight: bold; text-align: right; padding: 2px; }
 td.print-overdue { font-size: 10pt; color: #42484b; font-weight: bold; padding: 2px; }
@@ -213,3 +213,7 @@ div.form-container fieldset.has-required:after { color: #AB3521 !important; }
 code { font: 13px/19px Consolas, Menlo, "Liberation Mono", Courier, monospace; text-shadow: none; color: #444; background-color: #F8F8F8; border: 1px solid #ccc; padding: .4em; }
 pre code { display:block; }
 
+/**
+ * @section Input fields
+ */
+ input#due_date_datetime_button { padding: 0; }
