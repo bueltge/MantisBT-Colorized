@@ -28,7 +28,7 @@
 body { font: 400 17px/1.6 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 small {font-size: 12px; color: #646464; }
 
-a, a:link { font-size: 12px; text-decoration: none; color: #AB3521; }
+a, a:link { font-size: 12px; text-decoration: none; color: #AB3521; padding: 0 2px 0 0; }
 a:visited { font-size: 12px; text-decoration: none; color: #AB3521; }
 a:hover, a:focus { text-decoration: underline; color: #AB3521; }
 a:active { text-decoration: none; }
@@ -217,3 +217,4 @@ pre code { display:block; }
  * @section Input fields
  */
  input#due_date_datetime_button { padding: 0; }
+ input[type="checkbox"] { vertical-align: middle; }
