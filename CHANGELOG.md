@@ -1,3 +1,9 @@
+## 2016-07-14
+* Now tested with the first stable version of MantisBT.
+* Small changes on different elements, no major issues.
+* Fix password forgotton page span.
+* Checkboxes more in the middle.
+
 ## 2016-05-31
 * Add support for css table rules from the [Markdown plugin](https://github.com/bueltge/Markdown-for-MantisBT)
 
