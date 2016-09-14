@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "6.0.x"
+ - "6"
 before_script:
  - npm install PrettyCSS -g
 script:
