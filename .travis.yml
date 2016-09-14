@@ -4,7 +4,7 @@ node_js: 6
 before_script:
  - npm install PrettyCSS -g
 script:
- - prettycss open-sans.css --ignore=suggest-relative-unit:px
- - prettycss buttons.css --ignore=suggest-relative-unit:px
- - prettycss colorized.css --ignore=suggest-relative-unit:px
- - prettycss default.css --ignore=suggest-relative-unit:px
+ - prettycss open-sans.css --ignore=suggest-relative-unit \ --ignore=browser-unsupported:ie7
+ - prettycss buttons.css --ignore=suggest-relative-unit \ --ignore=browser-unsupported:ie7
+ - prettycss colorized.css --ignore=suggest-relative-unit \ --ignore=browser-unsupported:ie7
+ - prettycss default.css --ignore=suggest-relative-unit \ --ignore=browser-unsupported:ie7
