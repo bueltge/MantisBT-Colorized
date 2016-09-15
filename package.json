@@ -1,0 +1,13 @@
+{
+  "name": "MantisBT-Colorized",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bueltge/MantisBT-Colorized.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0"
+  }
+}

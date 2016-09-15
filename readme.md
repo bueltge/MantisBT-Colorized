@@ -4,11 +4,15 @@ Just another theme for [Mantis BugTracker](http://www.mantisbt.org/), the free w
 
 This style uses the magic of CSS to transform in a new style - simple, fast and useful, without images, pure css.
 
-### Screenshots
+## Screenshots
  * Buglist View
 ![Buglist View](assets/screenshot-1.png "Buglist")
 
  * [Screenshot of the Issue](assets/screenshot-2.png "Issue")
+
+## Installation
+### Requirements
+ * MantisBT 1.3*, For smaller version use the version of the [branch 1.2](https://github.com/bueltge/MantisBT-Colorized/tree/MantisVersion1.2.x)
 
 ### Installation
  1. Download
@@ -17,35 +21,38 @@ This style uses the magic of CSS to transform in a new style - simple, fast and 
  4. Copy all files from the unpacked folder `colorized/*` to `<mantis_root>/colorized/`
  5. Add the following line to your `config_inc.php` to change the css file included into MantisBT:
 
-```php
-	$g_css_include_file = "colorized/colorized.css";
-```
+     ```php
+     $g_css_include_file = "colorized/colorized.css";
+     ```
+ 6. The followed two steps are optional.
 
-### Status Colors
-If you will also use the same colors for your status graph, then copy the follow snippet in your `config_inc.php`
+     6.1 Status Colors
+     
+     If you will also use the same colors for your status graph, then add the follow snippet in your `config_inc.php`
 
-```php
-	# --- Colors ---
-	$g_status_colors['new']          = '#eeb3aa';
-	$g_status_colors['feedback']     = '#badade';
-	$g_status_colors['acknowledged'] = '#f5e5b8';
-	$g_status_colors['confirmed']    = '#c5dba9';
-	$g_status_colors['assigned']     = '#afbed5';
-	$g_status_colors['resolved']     = '#c1b9ae';
-	$g_status_colors['closed']       = '#e8e8e8';
-```
+     ```php
+     # --- Colors ---
+     $g_status_colors['new']          = '#eeb3aa';
+     $g_status_colors['feedback']     = '#badade';
+     $g_status_colors['acknowledged'] = '#f5e5b8';
+     $g_status_colors['confirmed']    = '#c5dba9';
+     $g_status_colors['assigned']     = '#afbed5';
+     $g_status_colors['resolved']     = '#c1b9ae';
+     $g_status_colors['closed']       = '#e8e8e8';
+     ```
 
-#### More user-friendly select boxes 
-You can also use the plugin [Chosen for MantisBT](https://github.com/bueltge/Chosen-for-MantisBT). Chosen is a jQuery plugin that makes long, unwieldy select boxes much more user-friendly.
+     6.2 More user-friendly select boxes 
+     
+     You can also use the plugin [Chosen for MantisBT](https://github.com/bueltge/Chosen-for-MantisBT). Chosen is a jQuery plugin that makes long, unwieldy select boxes much more user-friendly.
 
 # Other Notes
 
 ### License
-Good news, this script is free for everyone! Since it's released under [the MIT](https://github.com/bueltge/MantisBT-Colorized/blob/MantisVersion1.3.x/LICENSE.txt).
+Good news, this script is free for everyone! Since it's released under [the MIT](./LICENSE.txt).
 But if you enjoy this style, you can thank me and leave a [donation](http://bueltge.de/wunschliste/) for the time I've spent writing and supporting this project. And I really don't want to know how many hours of my life this plugin has already eaten ;)
 
 ### Changelog
-Read the separate [changelog file.](https://github.com/bueltge/MantisBT-Colorized/blob/MantisVersion1.3.x/CHANGELOG.md)
+Read the separate [changelog file.](./CHANGELOG.md)
 
 ### Contact & Feedback
 This script is designed and developed by me ([Frank Bültge](http://bueltge.de)), [G+ Page](https://plus.google.com/111291152590065605567/about?rel=author)
