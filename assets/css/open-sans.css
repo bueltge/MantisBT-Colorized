@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/**
+ * Title:   Font Open Sans for Colorized, a MantisBT Stylesheet
+ * Author:  Frank Bültge
+ * Contact: frank@bueltge.de
+ * URL:     https://github.com/bueltge/MantisBT-Colorized
+ * 
+ * Description: Font Open Sans for Colorized theme, Version >= 1.3*
+ * 
+ * @since   2009-04
+ * @version 2016-03-16
+ * @author  Frank Bültge <frank@bueltge.de>
+ */
+ 
+/* ----------------------------------------------------------
+  600
+---------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg'), url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg'), url('../fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('../fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype');
+}
+
+/* ----------------------------------------------------------
+  400
+---------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg'), url('../fonts/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg'), url('../fonts/OpenSans-Italic-webfont.woff') format('woff'), url('../fonts/OpenSans-Italic-webfont.ttf') format('truetype');
+}
+
+/* ----------------------------------------------------------
+  300
+---------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light-webfont.woff') format('woff'), url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg'), url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype');
+}
