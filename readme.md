@@ -1,5 +1,7 @@
 # Colorized, a MantisBT Stylesheet
 
+[![Build Status](https://travis-ci.org/bueltge/MantisBT-Colorized.svg?branch=MantisVersion1.3.x)](https://travis-ci.org/bueltge/MantisBT-Colorized) [![Project Status](http://opensource.box.com/badges/active.svg)](http://opensource.box.com/badges) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)   
+
 Just another theme for [Mantis BugTracker](http://www.mantisbt.org/), the free web-based bugtracking system.
 
 This style uses the magic of CSS to transform in a new style - simple, fast and useful, without images, pure css.
