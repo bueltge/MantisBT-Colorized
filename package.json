@@ -1,11 +1,21 @@
 {
   "name": "MantisBT-Colorized",
   "version": "1.0.0",
+  "description": "Just another theme for Mantis BugTracker, the free web-based bugtracking system.",
+  "keywords": [
+    "mantisbt",
+    "theme",
+    "stylesheet"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:bueltge/MantisBT-Colorized.git"
   },
+  "bugs": {
+    "url": "https://github.com/bueltge/MantisBT-Colorized/issues"
+  },
   "license": "MIT",
+  "author": "Frank Bültge <frank@bueltge.de>",
   "devDependencies": {
     "PrettyCSS": "^0.3.12",
     "grunt": "~0.4.5",
