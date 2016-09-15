@@ -12,7 +12,7 @@ This style uses the magic of CSS to transform in a new style - simple, fast and 
 
 ## Installation
 ### Requirements
- * MantisBT 1.3*, For smaller version use the version of the [branch 1.2](https://github.com/bueltge/MantisBT-Colorized/tree/MantisVersion1.2.x)
+ * MantisBT 1.3*, For smaller version of MantisBT use the version of the [branch 1.2](https://github.com/bueltge/MantisBT-Colorized/tree/MantisVersion1.2.x)
 
 ### Installation
  1. Download
