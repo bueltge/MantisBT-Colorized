@@ -7,7 +7,7 @@
  * Description: Defaults for Colorized theme, Version >= 1.3*
  * 
  * @since   2009-04
- * @version 2016-05-31
+ * @version 2016-09-23
  * @author  Frank Bültge <frank@bueltge.de>
  */
  
@@ -21,16 +21,8 @@ p.compact {
 	margin: 0;
 }
 pre {
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
-a {
-}
-a:active {
-}
-a:link {
-}
-a:visited {
+	margin-bottom: 0;
+	margin-top: 0;
 }
 a.subtle {
 	color: blue;
@@ -45,18 +37,8 @@ a > img {
 form {
 	display: inline;
 }
-input {
-}
-input.button {
-}
-input.button-small {
-}
-textarea {
-}
 textarea.width100 {
 	width: 100%;
-}
-select {
 }
 select.width100 {
 	width: 100%;
@@ -86,10 +68,10 @@ table {
 }
 table td, table th {
 	border: none;
-	border-spacing: 0px;
+	border-spacing: 0;
 }
 table.hide {
-	border: solid 0px #ffffff;
+	border: solid 0 #ffffff;
 	width: 100%;
 }
 table.width100 {
@@ -176,7 +158,7 @@ td.form-title-caps {
 	text-transform: uppercase;
 }
 td.nopad {
-	padding: 0px;
+	padding: 0;
 }
 td.small-caption, th.small-caption {
 	font-size: 8pt;
@@ -207,7 +189,7 @@ td.print-spacer {
 	color: #000000;
 	font-size: 1pt;
 	line-height: 0.1;
-	padding: 0px;
+	padding: 0;
 }
 td.print > a:link.user {
 	color: black;
@@ -314,7 +296,7 @@ tr.bugnote .time-tracked,
 	float: left;
 	font-size: 1em;
 	margin: .25em;
-	padding: 0em;
+	padding: 0;
 }
 #logged-anon-label {
 	padding: 0 .5em;
@@ -612,7 +594,7 @@ div#news-items {
 div.news-item {
 	border: 1px solid #000;
 	margin: 2em auto;
-	padding: 0em;
+	padding: 0;
 	width: 75%;
 }
 div#news-items div:first-child {
@@ -621,7 +603,7 @@ div#news-items div:first-child {
 h3.news-heading-public {
 	border-bottom: 1px solid #000000;
 	color: #000000;
-	margin: 0em;
+	margin: 0;
 	padding: .25em;
 	text-align: left;
 }
@@ -629,14 +611,14 @@ h3.news-heading-private {
 	background-color: #d8d8d8;
 	border-bottom: 1px solid #000000;
 	color: #000000;
-	margin: 0em;
+	margin: 0;
 	padding: .25em;
 	text-align: left;
 }
 p.news-body {
 	background-color: #ffffff;
 	color: #000000;
-	margin: 0em;
+	margin: 0;
 	padding: 1em;
 }
 .news-date-posted {
@@ -665,14 +647,12 @@ p.news-body {
 }
 #news-menu {
 	clear: both;
-	margin: 0em auto;
+	margin: 0 auto;
 	text-align: center;
 	width: 75%;
 }
 .news-headline {
 	font-weight: bold;
-}
-img {
 }
 img.icon {
 	height: 11px;
@@ -903,7 +883,7 @@ div#save-filter {
 }
 div#error-msg {
 	border: 1px solid #000;
-	margin: 0em auto;
+	margin: 0 auto;
 	width: 60%;
 }
 div.error-type {
@@ -961,7 +941,7 @@ div.form-container,
 div.table-container {
 	border: 1px solid #000;
 	clear: both;
-	margin: 2em auto 0em auto;
+	margin: 2em auto 0 auto;
 	min-width: 50em;
 	padding: 1px;
 	position: relative;
@@ -1011,7 +991,7 @@ div.table-container h2 {
 	float: left;
 	font-size: 1em;
 	font-weight: bold;
-	margin: 0em;
+	margin: 0;
 	padding: .5em;
 	text-align: left;
 }
@@ -1052,8 +1032,8 @@ div#project-delete-div {
 }
 fieldset {
 	border: none;
-	margin: 0em;
-	padding: 0em;
+	margin: 0;
+	padding: 0;
 }
 .action-buttons {
 	clear: both;
@@ -1064,17 +1044,17 @@ fieldset {
 div.form-container fieldset {
 	border: none;
 	clear: both;
-	margin: 0em;
-	padding: 0em;
+	margin: 0;
+	padding: 0;
 }
 div#form-container fieldset fieldset {
-	margin: 0em 0em 1px 0em;
+	margin: 0 0 1px 0;
 }
 div.form-container fieldset legend {
 	border: none;
 	float: left;
 	font-weight: bold;
-	margin: 0em;
+	margin: 0;
 	padding: .5em .15em;
 	text-indent: .5em;
 }
@@ -1130,8 +1110,8 @@ fieldset fieldset.field-container,
 div.field-container {
 	display: block;
 	float: left;
-	margin: 0em 0em 1px 0em;
-	padding: 0em;
+	margin: 0 0 1px 0;
+	padding: 0;
 	position: relative;
 	width: 100%;
 }
@@ -1140,10 +1120,10 @@ div.form-container .field-container>label,
 div.form-container fieldset fieldset legend {
 	float: left;
 	font-weight: bold;
-	margin: 0em;
+	margin: 0;
 	padding: .5em;
 	position: relative;
-	text-indent: 0em;
+	text-indent: 0;
 	white-space: normal;
 	z-index: 9999;
 }
@@ -1186,7 +1166,7 @@ div.form-container .input,
 div.form-container .file,
 .display-value {
 	float: left;
-	margin: 0em .5em;
+	margin: 0 .5em;
 	padding: .25em;
 	position: relative;
 }
@@ -1206,11 +1186,11 @@ div.form-container .spacer {
 .label-style {
 	border-right: 1px solid #fff;
 	height: 100%;
-	left: 0em;
-	margin: 0em;
-	padding: 0em;
+	left: 0;
+	margin: 0;
+	padding: 0;
 	position: absolute;
-	top: 0em;
+	top: 0;
 	z-index: 0;
 }
 .section-links,
@@ -1250,7 +1230,7 @@ div.important-msg {
 	color: red;
 }
 div.important-msg ul, .success-msg, .failure-msg {
-	margin: 0em;
+	margin: 0;
 	padding: 2em 2em 2em 4em;
 }
 div.important-msg ul li {
@@ -1265,13 +1245,13 @@ div.confirm-msg {
 }
 ul.project-list {
 	list-style: none;
-	margin: .5em 0em 2em 0em;
-	padding: 0em .5em;
+	margin: .5em 0 2em 0;
+	padding: 0 .5em;
 }
 ul.project-list li {
 	clear: both;
 	line-height: 1.25em;
-	margin: 0em;
+	margin: 0;
 	min-width: 30em;
 }
 ul.project-list li span.access-level:before {
@@ -1294,18 +1274,18 @@ ul.project-list li span.project-name {
 ul.project-list li span.access-level, ul.project-list li span.view-state {
 	display: block;
 	float: left;
-	margin: 0em .25em;
+	margin: 0 .25em;
 }
 .tag-list td span.tag-filter:before {
 	content: ' [';
-	padding: 0em .5em;
+	padding: 0 .5em;
 }
 .tag-list td span.tag-filter:after {
 	content: '] ';
-	padding: 0em .5em;
+	padding: 0 .5em;
 }
 .tag-link {
-	margin: 0em .5em;
+	margin: 0 .5em;
 }
 tr.bugnote-private td.bugnote-meta {
 	background-color: #e8e8e8;
