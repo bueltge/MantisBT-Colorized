@@ -600,7 +600,7 @@ div.news-item {
 div#news-items div:first-child {
 	margin-top: 3em;
 }
-h3.news-heading-public {
+h3.news-heading-public, h3.news-heading-private {
 	border-bottom: 1px solid #000000;
 	color: #000000;
 	margin: 0;
@@ -609,11 +609,6 @@ h3.news-heading-public {
 }
 h3.news-heading-private {
 	background-color: #d8d8d8;
-	border-bottom: 1px solid #000000;
-	color: #000000;
-	margin: 0;
-	padding: .25em;
-	text-align: left;
 }
 p.news-body {
 	background-color: #ffffff;
