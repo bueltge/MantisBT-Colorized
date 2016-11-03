@@ -1,0 +1,6 @@
+{
+  "name": "MantisBT Colorized",
+  "tagline": "Just another theme for the Mantis BugTracker.",
+  "body": "### Colorized, a MantisBT Stylesheet\r\n\r\nJust another theme for [Mantis BugTracker](http://www.mantisbt.org/), the free web-based bugtracking system.\r\n\r\nThis style uses the magic of CSS to transform in a new style - simple, fast and useful, without images, pure css.\r\n\r\n### Screenshots\r\n![Buglist View](https://github.com/bueltge/MantisBT-Colorized/blob/MantisVersion1.3.x/assets/screenshot-1.png?raw=true)\r\n\r\n### License\r\nThis code is licensed under the [MIT License](https://github.com/bueltge/MantisBT-Colorized/blob/MantisVersion1.3.x/LICENSE.txt).\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
