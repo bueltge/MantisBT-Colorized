@@ -8,4 +8,5 @@ ratings:
   paths:
   - "**.css"
 exclude_paths:
+  - "*.min.css"
   - "colorized.css"
