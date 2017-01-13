@@ -19,13 +19,13 @@ module.exports = function( grunt ) {
 		},
 		csslint: {
 			strict: {
-				src: ['assets/css/*.css']
+				src: [ 'assets/css/*.css', '!assets/css/*.min.css' ]
 			},
 			lax: {
 				options: {
 					csslintrc: '.csslintrc'
 				},
-				src: ['assets/css/default.css']
+				src: [ 'assets/css/*.css', '!assets/css/*.min.css' ]
 			}
 		}
 	} );
