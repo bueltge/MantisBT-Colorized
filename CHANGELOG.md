@@ -1,4 +1,7 @@
-## 2017-01-13
+## 1.1.0, 2017-01-14
+* Clean up the css files for code review.
+
+## 1.0.1, 2017-01-13
 * Move the text of the project list to align left.
 
 ## 2016-07-14
