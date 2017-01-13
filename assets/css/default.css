@@ -977,28 +977,16 @@ div.width50 {
 #manage-user-div {
 	min-width: 57em;
 }
-.section-container h2,
-.form-container h2,
-.table-container h2 {
-	background-color: #fff;
-	color: #000;
-	float: left;
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0;
-	padding: .5em;
-	text-align: left;
-}
-div.section-container table,
-div.form-container table,
-div.table-container table,
+.section-container table,
+.form-container table,
+.table-container table,
 #action-group-issues-div table {
 	border-spacing: 1px;
 	width: 100%;
 }
-div.section-container table th,
-div.form-container table th,
-div.table-container table th {
+.section-container table th,
+.form-container table th,
+.table-container table th {
 	text-align: left;
 }
 div#reauth-div,
