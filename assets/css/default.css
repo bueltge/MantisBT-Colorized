@@ -197,8 +197,8 @@ td.print > a:link.user {
 }
 tr {
 }
-tr.spacer {
-	background-color: #ffffff !important;
+tr.spacer td {
+	background-color: #ffffff;
 	color: #000000;
 	height: 5px;
 }
@@ -977,9 +977,9 @@ div.width50 {
 #manage-user-div {
 	min-width: 57em;
 }
-div.section-container h2,
-div.form-container h2,
-div.table-container h2 {
+.section-container h2,
+.form-container h2,
+.table-container h2 {
 	background-color: #fff;
 	color: #000;
 	float: left;
