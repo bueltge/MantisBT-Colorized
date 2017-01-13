@@ -1,3 +1,6 @@
+## 2017-01-13
+* Move the text of the project list to align left.
+
 ## 2016-07-14
 * Now tested with the first stable version of MantisBT.
 * Small changes on different elements, no major issues.
