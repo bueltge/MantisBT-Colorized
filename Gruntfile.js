@@ -19,7 +19,7 @@ module.exports = function( grunt ) {
 		},
 		csslint: {
 			strict: {
-				src: ['assets/css/default.css']
+				src: ['assets/css/*.css']
 			},
 			lax: {
 				options: {

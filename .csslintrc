@@ -1,3 +1,6 @@
 {
-  "overqualified-elements": false
+  "box-model": false,
+  "overqualified-elements": false,
+  "ids": false,
+  "floats": false
 }
