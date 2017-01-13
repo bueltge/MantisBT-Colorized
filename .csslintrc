@@ -1,5 +1,6 @@
 {
   "order-alphabetical": false,
+  "import": false,
   "box-model": false,
   "overqualified-elements": false,
   "ids": false,

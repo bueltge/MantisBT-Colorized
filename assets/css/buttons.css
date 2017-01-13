@@ -7,7 +7,7 @@
  * Description: Navigation, Menu and Buttons for Colorized theme, Version >= 1.3*
  * 
  * @since   2009-04
- * @version 2016-09-14
+ * @version 2017-01-14
  * @author  Frank Bültge <frank@bueltge.de>
  */
 
@@ -50,11 +50,11 @@ select {
 	margin: 0;
 	text-decoration: none;
 	text-shadow: 1px 1px 0 #fff;
-	font-size: 11px
+	font-size: 11px;
 	color: #333333;
-	outline: none;
 	background-color: #ececec;
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+	background-image: -webkit-linear-gradient(#f4f4f4, #ececec);
 	background-image: -moz-linear-gradient(#f4f4f4, #ececec);
 	background-image: -ms-linear-gradient(#f4f4f4, #ececec);
 	background-image: -o-linear-gradient(#f4f4f4, #ececec);
@@ -64,6 +64,9 @@ select {
 	/* IE hacks */
 	zoom: 1;
 	*display: inline;
+}
+select:focus {
+	outline: none;
 }
 
 input, textarea, .main-menu ul li a {
@@ -113,6 +116,7 @@ select:hover {
 	color: #fff;
 	background-color: #3c8dde;
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+	background-image: -webkit-linear-gradient(#599bdc, #3072b3);
 	background-image: -moz-linear-gradient(#599bdc, #3072b3);
 	background-image: -o-linear-gradient(#599bdc, #3072b3);
 	background-image: linear-gradient(#599bdc, #3072b3);
@@ -126,6 +130,7 @@ input:active,
 	border-bottom-color: #3884cd;
 	background-color: #3072b3;
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
+	background-image: -webkit-linear-gradient(#3072b3, #599bdc);
 	background-image: -moz-linear-gradient(#3072b3, #599bdc);
 	background-image: -ms-linear-gradient(#3072b3, #599bdc);
 	background-image: -o-linear-gradient(#3072b3, #599bdc);
