@@ -7,14 +7,13 @@
  * Description: Defaults for Colorized theme, Version >= 1.3*
  * 
  * @since   2009-04
- * @version 2017-01-14
+ * @version 2017-01-16
  * @author  Frank Bültge <frank@bueltge.de>
  */
  
 body {
 	background-color: #ffffff;
 	color: #000000;
-	font-size: 10pt;
 	margin: 6px 4px;
 }
 p.compact {
@@ -137,11 +136,10 @@ td.width30, th.width30 {
 	width: 30%;
 }
 td.col-1 {
-	background-color: #d8d8d8;
 	color: #000000;
 }
 td.col-2 {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 	color: #000000;
 }
 td.form-title {
@@ -201,11 +199,10 @@ tr.spacer td {
 	height: 5px;
 }
 tr.row-1 {
-	background-color: #d8d8d8;
 	color: #000000;
 }
 tr.row-2 {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 	color: #000000;
 }
 tr.row-category {
@@ -262,7 +259,7 @@ tr.bugnote .bugnote-meta {
 	width: 25%;
 }
 tr.bugnote .bugnote-note {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 	color: #000000;
 	vertical-align: top;
 	width: 75%;
@@ -388,7 +385,7 @@ tr.bugnote .time-tracked,
 	padding: .2em 0;
 }
 .main-menu {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 	border: 1px solid #999;
 	float: left;
 	padding: 0;
@@ -560,7 +557,7 @@ br {
 	color: #999;
 }
 td.menu {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 	color: #000000;
 	padding: 5px;
 	text-align: center;
@@ -575,7 +572,6 @@ td.news-heading-public {
 	text-align: left;
 }
 td.news-heading-private {
-	background-color: #d8d8d8;
 	border-bottom: 1px solid #000000;
 	color: #000000;
 	text-align: left;
@@ -603,9 +599,6 @@ h3.news-heading-public, h3.news-heading-private {
 	margin: 0;
 	padding: .25em;
 	text-align: left;
-}
-h3.news-heading-private {
-	background-color: #d8d8d8;
 }
 p.news-body {
 	background-color: #ffffff;
@@ -659,7 +652,7 @@ div {
 	padding: 3px;
 }
 div.menu {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 	color: #000000;
 	padding: 1px;
 	text-align: center;
@@ -1064,7 +1057,7 @@ div.form-container > table > tr:nth-child(odd),
 div.form-container div.field-container:nth-child(odd),
 div.section-container div.field-container:nth-child(odd),
 table#manage-overview-table > tr:nth-child(odd) {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 }
 fieldset > .field-container:nth-child(even),
 form > table > tr:nth-child(even),
@@ -1078,9 +1071,6 @@ div.form-container > table > tbody > tr:nth-child(even),
 div.form-container div.field-container:nth-child(even),
 div.section-container div.field-container:nth-child(even),
 div.form-container > table > tr:nth-child(even),
-#custom-field-link-project {
-	background-color: #d8d8d8;
-}
 form > table > tr:last-child,
 div.table-container > table > tbody > tr > td.buttons,
 div.table-container > table > tbody > tr > td.right {
@@ -1147,7 +1137,7 @@ div.form-container .file,
 .display-value {
 	float: left;
 	margin: 0 .5em;
-	padding: .25em;
+	padding: .65em 0 0 .25em;
 	position: relative;
 }
 div.form-container .radio input,
@@ -1268,7 +1258,7 @@ ul.project-list li span.access-level, ul.project-list li span.view-state {
 	margin: 0 .5em;
 }
 tr.bugnote-private td.bugnote-meta {
-	background-color: #e8e8e8;
+	background-color: #f6f6f6;
 }
 div#mantis.centered_page div#banner {
 	text-align: center;

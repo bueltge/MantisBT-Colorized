@@ -1,5 +1,8 @@
-## 1.1.0, 2017-01-14
+## 1.1.0, 2017-01-16
 * Clean up the css files for code review.
+* Change border, backgrounds of rows.
+* Small color changes.
+* Add rule to get border for tables in bug descriptin, like via Markdown content.
 
 ## 1.0.1, 2017-01-13
 * Move the text of the project list to align left.

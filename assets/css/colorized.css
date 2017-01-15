@@ -7,7 +7,7 @@
  * Description: Alternative colorized style for the Manits Bugtracker, Version >= 1.3*
  * 
  * @since   2009-04
- * @version 2017-01-14
+ * @version 2017-01-16
  * @author  Frank Bültge <frank@bueltge.de>
  */
 
@@ -51,15 +51,14 @@ span.dependency_met { color: green; }
 span.dependency_unmet { color: red; }
 span.dependency_upgrade { color: orange; }
 
-table { color: #646464; border-radius: 0.2em; }
+table { color: #646464; }
 table.hide { width: 100%; border: solid 0 #f4f5ef; }
-table.width100{ width: 100%; border: solid 1px #e9e9e9; }
-table.width90{ width: 90%;  border: solid 1px #e9e9e9; }
-table.width75{ width: 75%;  border: solid 1px #e9e9e9; }
-table.width60{ width: 60%;  border: solid 1px #e9e9e9; }
-table.width50{ width: 50%;  border: solid 1px #e9e9e9; }
-
-th.category, td.category { background-color: #cccccc; }
+table.width100{ width: 100%; border: solid 1px #e0e0e0; }
+table.width90{ width: 90%;  border: solid 1px #e0e0e0; }
+table.width75{ width: 75%;  border: solid 1px #e0e0e0; }
+table.width60{ width: 60%;  border: solid 1px #e0e0e0; }
+table.width50{ width: 50%;  border: solid 1px #e0e0e0; }
+.bug-description table th, .bug-description table td { border: 1px solid #e0e0e0; }
 
 td { color: #484848; font-size: 10pt; padding: 4px; text-align: left; }
 td.center { text-align: center; }
@@ -68,8 +67,8 @@ td.right { text-align: right; }
 td.category { color: #484848; font-weight: 600; vertical-align: top; }
 td.overdue { background-color: #CE4027; color: #f4f5ef; }
 
-td.col-1{ background-color: #d8d8d8; color: #42484b; }
-td.col-2{ background-color: #e8e8e8; color: #42484b; }
+td.col-1{ color: #42484b; }
+td.col-2{ background-color: #f6f6f6; color: #42484b; }
 td.form-title {font-weight: bold; text-align: left; }
 td.nopad { padding: 0; }
 td.small-caption { font-size: 10pt; padding-left: .8em; }
@@ -80,16 +79,18 @@ td.print-bottom { border-bottom: 1px solid #42484b; }
 td.print-spacer { background-color: #f4f5ef; color: #42484b; font-size: 1pt; line-height: 0.1; padding: 0; }
 
 tr.spacer { background-color: #f4f5ef; color: #42484b; height: 5px; }
-tr.row-1 { background-color: #eaeaea; color: #e9e9e9; }
-tr.row-2 { background-color: #F5F5F5; color: #42484b; }
-tr.row-category { background-color: #e9e9e9; color: #646464; font-weight: bold; }
+tr.row-1 { background-color: #eaeaea; color: #e0e0e0; }
+tr.row-2 { background-color: #ededed; color: #42484b; }
+tr.row-category { background-color: #e0e0e0; color: #646464; font-weight: bold; }
 tr.row-category td {  text-align:center; }
-tr.row-category2{ background-color: #F5F5F5; color: #646464; }
+tr.row-category2{ background-color: #ededed; color: #646464; }
 tr.row-category-history { background-color: #cccccc; color: #42484b; font-weight: bold; }
 tr.row-category-history td {  text-align: left; }
 tr.vcenter { vertical-align: middle; }
 tr.print { vertical-align: top; }
 tr.print-category { color: #42484b; font-weight: bold; }
+
+thead tr { text-shadow: 1px 1px 0 #fff; }
 
 #buglist tr, #buglist td { text-align: center; }
 #buglist td.left { text-align: left; }
@@ -98,16 +99,16 @@ tr.print-category { color: #42484b; font-weight: bold; }
 
 tr.bugnote { vertical-align: top; }
 td.bugnote-public { background-color: #cccccc; color: #42484b; font-weight: bold; width: 25%; line-height: 1.4; }
-td.bugnote-private { background-color: #e8e8e8; color: #42484b; font-weight: bold; width: 25%; line-height: 1.4; }
-td.bugnote-note-public { background-color: #e8e8e8; color: #42484b; width: 75%; }
-td.bugnote-note-private { background-color: #e8e8e8; color: #42484b; width: 75%; }
+td.bugnote-private { background-color: #f6f6f6; color: #42484b; font-weight: bold; width: 25%; line-height: 1.4; }
+td.bugnote-note-public { background-color: #f6f6f6; color: #42484b; width: 75%; }
+td.bugnote-note-private { background-color: #f6f6f6; color: #42484b; width: 75%; }
 
 td.login-info-left { width: 33%; padding: 0; text-align: left; }
 td.login-info-middle { width: 33%; padding: 0; text-align: center; }
 td.login-info-right { width: 33%; padding: 0; text-align: right; white-space: nowrap; }
 
 td.news-heading-public { background-color: #cccccc; color: #42484b; text-align: left; border-bottom: 1px solid #42484b; }
-td.news-heading-private { background-color: #d8d8d8; color: #42484b; text-align: left; border-bottom: 1px solid #42484b; }
+td.news-heading-private { color: #42484b; text-align: left; border-bottom: 1px solid #42484b; }
 td.news-body { background-color: #f4f5ef; color: #42484b; padding: 16px; }
 
 tt { font: 400 13px/1.6 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -116,7 +117,7 @@ img.icon { width: 11px; height: 11px; }
 img.delete-icon { position: relative; top: 5px; border: 0; }
 
 div { padding: 3px; }
-div.menu { background-color: #e8e8e8; color: #42484b; text-align: center; width: 100%; padding: 1px; }
+div.menu { background-color: #f6f6f6; color: #42484b; text-align: center; width: 100%; padding: 1px; }
 
 div.center { width: 50%; margin-right: auto; margin-left: auto; }
 
@@ -127,6 +128,7 @@ div.quick-summary-right { width: 49%; padding: 2px; text-align: right; float: ri
 
 div.important-msg { color: #AB3521; border-color: #AB3521; }
 div.form-container fieldset.has-required:after { color: #AB3521 !important; }
+div.field-container { border-bottom: 1px solid #e0e0e0; }
 
 .center { text-align: center; }
 .left { text-align: left; }
@@ -179,7 +181,7 @@ div.form-container fieldset.has-required:after { color: #AB3521 !important; }
 #history_open,
 #history_closed { opacity: 1; height:auto; margin-top:0;
  -webkit-transform-origin:0; -moz-transform-origin:0; -ms-transform-origin:0;  -o-transform-origin:0; 	transform-origin:0;
- -webkit-transition: all .4s ease-in; -moz-transition: all .4s ease-in; -ms-transition: all .4s ease-in; -o-transition: all .4s ease-in; 	transition: all .4s ease-in; }
+ -webkit-transition: all .4s ease-in; -moz-transition: all .4s ease-in; -o-transition: all .4s ease-in; 	transition: all .4s ease-in; }
 
 #filter_open.hidden,
 #filter_closed.hidden,
@@ -212,5 +214,5 @@ pre code { display:block; }
 /**
  * @section Input fields
  */
- input#due_date_datetime_button { padding: 0; }
- input[type="checkbox"] { vertical-align: middle; }
+input#due_date_datetime_button { padding: 0; }
+input[type="checkbox"] { vertical-align: middle; }
