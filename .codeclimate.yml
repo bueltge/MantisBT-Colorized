@@ -24,3 +24,4 @@ exclude_paths:
 - "**/assets/fonts/**/*"
 - "**/*.min.css"
 - "colorized.css"
+- "Gruntfile.js"
